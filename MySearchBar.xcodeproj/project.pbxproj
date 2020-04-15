@@ -13,6 +13,8 @@
 		0E142D932447268F00CBE838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E142D922447268F00CBE838 /* Assets.xcassets */; };
 		0E142D962447268F00CBE838 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E142D952447268F00CBE838 /* Preview Assets.xcassets */; };
 		0E142D992447268F00CBE838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E142D972447268F00CBE838 /* LaunchScreen.storyboard */; };
+		0E142DA1244732CA00CBE838 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E142DA0244732CA00CBE838 /* Landmark.swift */; };
+		0E142DA32447376100CBE838 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E142DA22447376100CBE838 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0E142D952447268F00CBE838 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E142D982447268F00CBE838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E142D9A2447268F00CBE838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E142DA0244732CA00CBE838 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		0E142DA22447376100CBE838 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0E142D972447268F00CBE838 /* LaunchScreen.storyboard */,
 				0E142D9A2447268F00CBE838 /* Info.plist */,
 				0E142D942447268F00CBE838 /* Preview Content */,
+				0E142DA0244732CA00CBE838 /* Landmark.swift */,
+				0E142DA22447376100CBE838 /* SearchBar.swift */,
 			);
 			path = MySearchBar;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			files = (
 				0E142D8D2447268E00CBE838 /* AppDelegate.swift in Sources */,
 				0E142D8F2447268E00CBE838 /* SceneDelegate.swift in Sources */,
+				0E142DA32447376100CBE838 /* SearchBar.swift in Sources */,
 				0E142D912447268E00CBE838 /* ContentView.swift in Sources */,
+				0E142DA1244732CA00CBE838 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
